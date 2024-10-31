@@ -1,0 +1,66 @@
+.pecom-hide {
+    display: none !important;
+}
+
+.pecom-pvz-block {
+    width: 100%;
+}
+
+.pecom-pvz-block .select2 {
+    max-width: 250px;
+    margin-bottom: 8px;
+    width: 100% !important;
+    display: block;
+}
+
+.pecom-pvz-block select {
+    width: 100%;
+}
+
+.pecom-pvz-block label {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    display: block;
+}
+
+.pecom-pvz-block + small {
+    display: block;
+}
+
+#pecom-map-trigger {
+    margin-top: 2px;
+    margin-bottom: 15px;
+    display: block
+}
+
+#pecom-yandex-map-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#pecom-yandex-map {
+    max-width: 1000px;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: 20
+}
+
+#pecom-yandex-map-backdrop {
+    background-color: rgba(255,255,255,.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}

@@ -1,0 +1,39 @@
+#pecom-widget {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#pecom-widget-map {
+    max-width: 1000px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    z-index: 9998;
+}
+
+#pecom-widget-map-backdrop {
+    background-color: rgba(255,255,255,.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9997;
+}
+
+#pecom-widget-content {
+    max-width: 1000px;
+    width: 100%;
+    position: relative;
+    z-index: 9998;
+    background-color: white;
+}
